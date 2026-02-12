@@ -62,7 +62,7 @@ const Skills = () => {
         >
           <motion.h2
             variants={itemVariants}
-            className="text-6xl font-bold text-[var(--color-highlight)] underline"
+            className="text-6xl font-bold text-[var(--color-highlight)] underline text-center"
           >
             Skills
           </motion.h2>

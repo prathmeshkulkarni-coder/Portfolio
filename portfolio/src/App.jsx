@@ -3,6 +3,7 @@ import About from "./components/About.jsx";
 import Projects from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
 import Skills from "./components/Skills.jsx";
+import SectionWrapper from "./components/SectionWrapper.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Projects />
       <Skills/>
+      <SectionWrapper/>
       <Contact />
     </div>
   );
