@@ -5,3 +5,6 @@
   --color-hunter: #1B4332;
   --color-highlight: #D1E8E2;
 }
+html {
+  scroll-behavior: smooth;
+}
