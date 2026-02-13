@@ -89,7 +89,15 @@ const Hero = () => {
             >
                 Contact
             </a>
+            <a
+              href="/Prathmesh_Kulkarni_Resume.pdf"
+              download
+              className="border border-(--color-hunter) px-5 py-3 rounded-md hover:bg-(--color-hunter)/10 transition"
+            >
+              Download Resume
+            </a>
             </motion.div>
+            
         </motion.div>
 
         {/* RIGHT SIDE CARD */}

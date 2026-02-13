@@ -90,7 +90,7 @@ const About = () => {
   className="relative flex justify-center items-center h-full"
 >
   {/* The Hunter Green Glow Effect */}
-  <div className="absolute w-72 h-72 bg-[var(--color-hunter)] opacity-20 blur-3xl rounded-full" />
+  <div className="absolute w-72 h-72 bg-(--color-hunter) opacity-20 blur-3xl rounded-full" />
 
   {/* The Image Wrapper */}
   <div className="relative border-2 border-[var(--color-hunter)] rounded-xl overflow-hidden shadow-[0_0_20px_rgba(22,66,60,0.3)]">
