@@ -77,7 +77,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="YOUR_LINKEDIN_LINK"
+              href="https://linkedin.com/in/prathmesh-kulkarni-43b5a9355"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 rounded-lg
