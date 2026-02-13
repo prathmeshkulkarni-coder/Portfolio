@@ -19,7 +19,8 @@ const categories = {
     "Render",
     "Cloudinary",
     "Multer",
-    "Git & GitHub"
+    "Git & GitHub",
+    "Postmen"
   ]
 };
 
