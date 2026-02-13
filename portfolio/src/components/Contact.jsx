@@ -66,7 +66,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://github.com/dullcoder993"
+              href="https://github.com/prathmeshkulkarni-coder"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 rounded-lg
