@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profile from "../assets/Profile.jpeg"
+import profile from "../assets/Profile.png"
 
 const containerVariants = {
   hidden: {},
@@ -82,15 +82,30 @@ const About = () => {
             </motion.div>
           ))}
         </motion.div>*/}
-        <div className="absolute w-72 h-72 bg-[var(--color-hunter)] opacity-20 blur-3xl rounded-full" />
+        {/* RIGHT SIDE - IMAGE CONTAINER */}
+<motion.div 
+  variants={itemVariants}
+  initial="hidden"
+  whileInView="show"
+  className="relative flex justify-center items-center h-full"
+>
+  {/* The Hunter Green Glow Effect */}
+  <div className="absolute w-72 h-72 bg-[var(--color-hunter)] opacity-20 blur-3xl rounded-full" />
 
-          <div className="relative border border-[var(--color-hunter)] rounded-xl overflow-hidden">
-            <img
-              src={profile}
-              alt="PRK"
-              className="w-72 h-80 object-cover grayscale hover:grayscale-0 transition duration-500"
-            />
-          </div>
+  {/* The Image Wrapper */}
+  <div className="relative border-2 border-[var(--color-hunter)] rounded-xl overflow-hidden shadow-[0_0_20px_rgba(22,66,60,0.3)]">
+    <img
+      src={profile}
+      alt="Prathmesh Kulkarni"
+      className="w-full h-[450px] object-cover grayscale hover:grayscale-0 transition-all duration-700 ease-in-out transform hover:scale-105"
+    />
+    
+    {/* Decorative Hunter Green Overlay Tag */}
+    <div className="absolute bottom-0 left-0 right-0 bg-[var(--color-hunter)]/80 backdrop-blur-md py-3 text-center">
+      <p className="text-white text-sm font-mono uppercase tracking-widest">Backend Developer</p>
+    </div>
+  </div>
+</motion.div>
 
       </div>
     </section>
