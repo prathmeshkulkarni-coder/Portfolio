@@ -41,7 +41,7 @@ const SectionWrapper = () => {
           className="mt-12 flex justify-center"
         >
           <img
-            src="https://ghchart.rshah.org/dullcoder993"
+            src="https://ghchart.rshah.org/prathmeshkulkarni-coder"
             alt="GitHub Contributions"
             className="rounded-lg opacity-80 border border-white/10"
           />
